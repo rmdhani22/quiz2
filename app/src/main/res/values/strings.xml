@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">quiz1</string>
+    <string name="warung_makan_kocak">Warung Makan Kocak</string>
+    <string name="menu_makan">Menu Makan</string>
+    <string name="menu_minuman">Menu Minuman</string>
+    <string name="nasi_uduk">Nasi Uduk</string>
+    <string name="mie_rebus">Mie Rebus</string>
+    <string name="mie_goreng">Mie Goreng</string>
+    <string name="nasi_goreng">Nasi Goreng</string>
+    <string name="teh_es">Teh Es</string>
+    <string name="es_jeruk">Es Jeruk</string>
+    <string name="jumlah_porsi">Jumlah Porsi</string>
+    <string name="masukan_jumlah_porsi">Masukan Jumlah Porsi</string>
+    <string name="order">Order</string>
+    <string name="warung_makanan_kocak">Warung Makanan Kocak</string>
+    <string name="menu_pesanan">Menu Pesanan</string>
+    <string name="jumlah_porsi1">Jumlah Porsi</string>
+    <string name="total_harga">Total Harga</string>
+</resources>

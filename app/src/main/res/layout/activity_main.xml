@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/warung_makan_kocak"
+        android:id="@+id/namawarung"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/namawarung"
+        android:text="@string/menu_makan"
+        android:padding="20dp"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:id="@+id/menumkn"/>
+    
+    <RadioButton
+        android:layout_below="@+id/menumkn"
+        android:text="@string/nasi_goreng"
+        android:id="@+id/btnnasgor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <RadioButton
+        android:layout_below="@+id/btnnasgor"
+        android:text="@string/mie_goreng"
+        android:id="@+id/btnmigor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <RadioButton
+        android:layout_below="@+id/btnmigor"
+        android:text="@string/mie_rebus"
+        android:id="@+id/btnmibus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <RadioButton
+        android:layout_below="@+id/btnmibus"
+        android:text="@string/nasi_uduk"
+        android:id="@+id/btnnnasduk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/menuminum"
+        android:layout_below="@+id/btnnnasduk"
+        android:text="@string/menu_minuman"
+        android:padding="20dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <RadioButton
+        android:id="@+id/btntehes"
+        android:layout_below="@+id/menuminum"
+        android:text="@string/teh_es"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <RadioButton
+        android:id="@+id/btnesjeruk"
+        android:layout_below="@+id/btntehes"
+        android:text="@string/es_jeruk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    
+    <TextView
+        android:text="@string/jumlah_porsi"
+        android:id="@+id/etjumlah"
+        android:layout_below="@+id/btnesjeruk"
+        android:textStyle="bold"
+        android:padding="10dp"
+        android:textSize="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/jumlah"
+        android:layout_below="@+id/etjumlah"
+        android:hint="@string/masukan_jumlah_porsi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"/>
+    
+    <Button
+        android:id="@+id/btnorder"
+        android:text="@string/order"
+        android:layout_below="@+id/jumlah"
+        android:layout_centerInParent="true"
+        android:backgroundTint="@color/black"
+        android:textColor="@color/white"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    
+
+
+
+
+</RelativeLayout>
